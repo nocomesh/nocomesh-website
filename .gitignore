@@ -67,3 +67,6 @@ bower_components
 # AWS stuff for publishing static files
 .aws-credentials.json
 .awspublish*
+
+# Generated resources
+resources/_gen
