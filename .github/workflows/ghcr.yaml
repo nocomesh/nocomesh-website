@@ -31,7 +31,7 @@ jobs:
         run: |
           BRANCH_NAME=${{ github.head_ref || github.ref_name }}
           IMAGE_TAG=
-          [ "$BRANCH_NAME" -eq "main" ] && IMAGE_TAG="latest" || IMAGE_TAG="$BRANCH_NAME"
+          [[ "$BRANCH_NAME" -eq "main" ]] && IMAGE_TAG="latest" || IMAGE_TAG="$BRANCH_NAME"
           echo "IMAGE_TAG=$IMAGE_TAG" >> $GITHUB_ENV
 
       # This step uses [docker/metadata-action](https://github.com/docker/metadata-action#about) to extract tags and labels that will be applied to the specified image. The `id` "meta" allows the output of this step to be referenced in a subsequent step. The `images` value provides the base name for the tags and labels.
