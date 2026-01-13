@@ -79,6 +79,7 @@ jobs:
             hugo-
       - name: Build the site
         run: |
+          npm install && \
           hugo \
             --gc \
             --minify \
