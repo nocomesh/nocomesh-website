@@ -1,0 +1,6 @@
+$custom-colors: (
+    "meshtastic-primary": #2C2D3C,
+    "meshtastic-accent": #67EA94,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);

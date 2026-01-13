@@ -1,0 +1,68 @@
+baseURL: https://nocomesh.com
+languageCode: en-us
+title: NoCo Mesh
+
+staticDir:
+  - static
+
+taxonomies:
+  tag: tags
+
+# Highlighting config
+pygmentsCodeFences: true
+pygmentsUseClasses: false
+# Use the new Chroma Go highlighter in Hugo.
+pygmentsUseClassic: false
+# pygmentsOptions: "linenos=table"
+# See https://help.farbox.com/pygments.html
+pygmentsStyle: tango
+
+markup:
+  goldmark:
+    parser:
+      attribute:
+        block: true
+    renderer:
+      unsafe: true
+  highlight:
+    style: tango
+    # Uncomment if you want your chosen highlight style used for code blocks without a specified language
+    # guessSyntax: true
+
+params:
+  taxonomy:
+    # set taxonomyCloud = [] to hide taxonomy clouds
+    taxonomyCloud: [tags]
+
+    # If used, must have same length as taxonomyCloud
+    taxonomyCloudTitle: [Tags]
+
+    # set taxonomyPageHeader = [] to hide taxonomies on the page headers
+    taxonomyPageHeader: [tags]
+  github_repo: https://github.com/nocomesh/nocomesh-website
+  copyright:
+    authors: NoCo Mesh [Contributors](https://github.com/nocomes/nocomesh-website)
+    from_year: 2026
+
+  links:
+    user:
+      - name: Discord
+        url: https://discord.gg/eSa42W5Bzp
+        icon: fa-brands fa-discord
+        desc: The NoCo Mesh Discord Server
+
+      - name: Meshview
+        url: https://map.nocomesh.com/map
+        icon: fa-regular fa-map
+        desc: Meshview of Northern Colorado
+
+  ui:
+    showLightDarkModeMenu: true
+
+module:
+  hugoVersion:
+    extended: true
+    min: 0.110.0
+  imports:
+    - path: github.com/google/docsy
+      disable: false
