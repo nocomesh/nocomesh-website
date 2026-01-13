@@ -43,4 +43,4 @@ For more information on configuring your device, please visit our [configuration
 
 ## Send a message
 
-Once the above steps are followed, you're ready to send a message! Open the Meshtastic app on your phone (or use the [Web Client](https://client.meshtastic.org) if on a computer), connect to your node, and send a message to the default channel! If you've set everything up correctly, others should be able to see your message, and your message will show up in the [public MeshView chat logs](https://map.nocomesh.com/chat)! Enjoy meshing with your neighbors in Northern Colorado
+Once the above steps are followed, you're ready to send a message! Open the Meshtastic app on your phone (or use the [Web Client](https://client.meshtastic.org) if on a computer), connect to your node, and send a message to the default channel! If you've set everything up correctly, others should be able to see your message, and your message will show up in the [public MeshView chat logs](https://map.nocomesh.org/chat)! Enjoy meshing with your neighbors in Northern Colorado

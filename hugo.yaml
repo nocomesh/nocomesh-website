@@ -1,4 +1,4 @@
-baseURL: https://nocomesh.com
+baseURL: https://nocomesh.org
 languageCode: en-us
 title: NoCo Mesh
 
@@ -41,7 +41,7 @@ params:
     taxonomyPageHeader: [tags]
   github_repo: https://github.com/nocomesh/nocomesh-website
   copyright:
-    authors: NoCo Mesh [Contributors](https://github.com/nocomes/nocomesh-website)
+    authors: NoCo Mesh [Contributors](https://github.com/nocomesh/nocomesh-website)
     from_year: 2026
 
   links:
@@ -52,7 +52,7 @@ params:
         desc: The NoCo Mesh Discord Server
 
       - name: Meshview
-        url: https://map.nocomesh.com/map
+        url: https://map.nocomesh.org/map
         icon: fa-regular fa-map
         desc: Meshview of Northern Colorado
 
