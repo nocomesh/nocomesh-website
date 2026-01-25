@@ -1,11 +1,11 @@
 ---
 date: '2026-01-24T18:34:09-07:00'
-draft: true
+draft: false
 title: 'Device'
 tags: [Settings]
 ---
 
-We heavily recommend [reading more about roles on the Meshtastic blog](https://meshtastic.org/blog/choosing-the-right-device-role/)
+We highly recommend [reading more about roles on the Meshtastic blog](https://meshtastic.org/blog/choosing-the-right-device-role/)
 
 ## Options
 
