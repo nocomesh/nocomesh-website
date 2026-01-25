@@ -1,7 +1,7 @@
 ---
 date: 2026-01-13T09:15:40-07:00
 description: Everyone started somewhere! Let's start you here
-draft: true
+draft: false
 title: Getting Started
 tags: [New User]
 ---

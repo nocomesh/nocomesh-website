@@ -1,6 +1,6 @@
 ---
 date: 2026-01-13T13:03:10-07:00
-draft: true
+draft: false
 title: Recommended Hardware
 tags: [New User, Nodes]
 ---

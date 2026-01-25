@@ -5,8 +5,6 @@ title: 'Device'
 tags: [Settings]
 ---
 
-We highly recommend [reading more about roles on the Meshtastic blog](https://meshtastic.org/blog/choosing-the-right-device-role/)
-
 ## Options
 
 | Name                         | Value   | Notes                                                                                                       |

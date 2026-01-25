@@ -9,5 +9,5 @@ menu: {main: {weight: 1}}
 NoCo Mesh Documentation and Resource Hub
 
 {{% pageinfo color="warning" %}}
-This documentation is a work in progress. Please join the Discord for help in the meantime
+This documentation is a work in progress. There may be broken links, malformed pages, and missing information. Please join the Discord for help if you have any issues
 {{% /pageinfo %}}
